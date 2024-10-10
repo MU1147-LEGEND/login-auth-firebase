@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .card{
+    @apply border border-transparent hover:border-black/15 w-4/5 md:w-3/5 lg:w-[40%] min-h-48 m-auto flex items-center justify-center p-4 rounded-lg shadow-lg shadow-slate-300 transition-all duration-300;
+  }
+  .inputBox{
+    @apply bg-gray-300 px-4 py-3.5 rounded-xl outline-none;
+  }
+}
